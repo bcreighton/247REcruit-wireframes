@@ -40,11 +40,39 @@ nav {
     position: fixed;
 }
 
+hr {
+    background-color: white;
+}
+
+.tempNav p {
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.tempNav li {
+    display: inline-block;
+    padding: 5px 25px;
+    font-size: 1.5rem;
+}
+
+.tempNav li a {
+    text-decoration: none;
+}
+
+.tempNav li a:hover, .tempNav li a:active, .tempNav li a:visited {
+    color: white;
+}
+
 main {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     width: 100%;
+    padding-top: 125px;
+}
+
+main.index {
+    padding-top:0;
 }
 
 section:nth-child(odd) {
@@ -55,8 +83,8 @@ section:nth-child(even) {
     background-color: darkgray;
 }
 
-section:nth-of-type(1) {
-    padding-top: 75px;
+main.index section:nth-of-type(1) {
+    padding-top: 150px;
 }
 
 section {
