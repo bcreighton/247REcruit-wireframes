@@ -59,7 +59,7 @@ hr {
     text-decoration: none;
 }
 
-.tempNav li a:hover, .tempNav li a:active, .tempNav li a:visited {
+.tempNav li a, .tempNav li a:hover, .tempNav li a:active, .tempNav li a:visited {
     color: white;
 }
 
